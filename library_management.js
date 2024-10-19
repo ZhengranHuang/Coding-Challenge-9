@@ -23,3 +23,21 @@ console.error("TRUE OR FALSE NEEDED");
 }
 }
 }
+//Task 2:Create a Section Class
+class Section {
+constructor(name) {
+this.name = name;
+this.books = [];
+}
+addBook(book) {
+    this.books.push(book);
+}
+getAvailableBooks() {
+return this.books.filter(book => book.isAvailable).length;
+}
+listBooks() {
+
+}
+//wrong
+}
+//
