@@ -40,4 +40,23 @@ listBooks() {
 }
 //wrong
 }
-//
+//Task 3:Create a Patron Class
+class Patron{
+constructor(name){
+this.name = name;
+this.borrowedBooks = [];
+}
+borrowBook(book){
+if(book.isAvailable){
+book.isAvailable = true//if book available, borrow the book
+this.borrowBook.push(book);
+console.log(`the book borrow is done.`)
+}
+else{
+console.log(`the book is not available.`)
+}
+}
+returnBook(book){
+
+}
+}
