@@ -38,12 +38,12 @@ return this.books.filter(book => book.isAvailable).length;
 listBooks() {
 
 }
+//wrong
 //Task 5:Handle Books Borrowing and Returning
 calculateTotalBooksAvailable(){
 return this.books.filter(book => book.isAvailable).length;
 }
 }
-//wrong
 
 //Task 3:Create a Patron Class
 class Patron{
